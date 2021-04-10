@@ -1,0 +1,42 @@
+{
+  "group": "alchemy_construct_rugs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "alchemy_construct_rugs:alchemists_jar",
+    "count": 1
+  }
+}

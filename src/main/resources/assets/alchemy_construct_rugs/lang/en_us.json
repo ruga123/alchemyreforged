@@ -1,0 +1,14 @@
+{
+  "enchantment.alchemy_construct_rugs.detonation": "Curse of Detonation",
+  "item.alchemy_construct_rugs.alchemists_concoction_red": "Alchemist\u0027s Concoction",
+  "item.alchemy_construct_rugs.water_jar": "Jar of Distilled Water",
+  "block.alchemy_construct_rugs.alchemy_station_connected": "Alchemy Station",
+  "block.alchemy_construct_rugs.alchemy_station": "Alchemy Station",
+  "block.alchemy_construct_rugs.concoction_tnt": "Weaponized Tnt",
+  "item.alchemy_construct_rugs.alchemists_jar": "Alchemist\u0027s Jar",
+  "block.alchemy_construct_rugs.controlled_heater_off": "Controlled Heater Off",
+  "item.alchemy_construct_rugs.golden_potato": "Golden Potato",
+  "item.alchemy_construct_rugs.throwable_concoction": "Throwable Concoction",
+  "block.alchemy_construct_rugs.controlled_heater_on": "Controlled Heater Off",
+  "block.alchemy_construct_rugs.heat_accumulator": "Heat Accumulator"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "alchemy_construct_rugs:custom/alchemists_concoction",
+  "textures": {
+    "particle": "alchemy_construct_rugs:items/alchemists_concoction_green"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "alchemy_construct_rugs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:stone"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "tag": "forge:stone"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "tag": "alchemy_construct_rugs:heat_producer_item"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:gold_nugget"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "alchemy_construct_rugs:alchemy_station_connected",
+    "count": 1
+  }
+}

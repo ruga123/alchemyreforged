@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemy_construct_rugs:block/controlled_heater_on"
+    },
+    "facing=east": {
+      "model": "alchemy_construct_rugs:block/controlled_heater_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemy_construct_rugs:block/controlled_heater_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemy_construct_rugs:block/controlled_heater_on",
+      "y": 270
+    }
+  }
+}

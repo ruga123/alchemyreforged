@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "whiteglasstexture",
+        "2": "white_concrete_texture",
+        "3": "irontexture",
+        "4": "blanktexture"
+      },
+      "name": "default"
+    }
+  }
+}

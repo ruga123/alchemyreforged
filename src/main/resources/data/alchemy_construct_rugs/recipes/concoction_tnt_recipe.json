@@ -1,0 +1,22 @@
+{
+  "group": "alchemy_construct_rugs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "alchemy_construct_rugs:concoction_tnt",
+    "count": 1
+  }
+}

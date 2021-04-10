@@ -1,0 +1,32 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "Blocks.SMOKER"
+      },
+      {
+        "value": "CUSTOM:ControlledHeaterOn"
+      },
+      {
+        "value": "CUSTOM:ControlledHeaterOff"
+      },
+      {
+        "value": "CUSTOM:ControlledHeaterOff"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "heat_producer_item",
+    "namespace": "mod"
+  }
+}

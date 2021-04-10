@@ -1,0 +1,11 @@
+{
+  "parent": "alchemy_construct_rugs:custom/concoctinated_tnt",
+  "textures": {
+    "all": "alchemy_construct_rugs:blocks/tnt_side",
+    "particle": "alchemy_construct_rugs:blocks/tnt_side",
+    "0": "alchemy_construct_rugs:blocks/tnt_side",
+    "1": "alchemy_construct_rugs:blocks/concoctiontntbottom",
+    "2": "alchemy_construct_rugs:blocks/whiteglasstexture",
+    "3": "alchemy_construct_rugs:blocks/processor1"
+  }
+}

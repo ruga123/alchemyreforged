@@ -1,0 +1,10 @@
+{
+  "parent": "alchemy_construct_rugs:custom/heatcollector",
+  "textures": {
+    "all": "alchemy_construct_rugs:blocks/goldtexture",
+    "particle": "alchemy_construct_rugs:blocks/goldtexture",
+    "0": "alchemy_construct_rugs:blocks/goldtexture",
+    "1": "alchemy_construct_rugs:blocks/whiteglasstexture",
+    "2": "alchemy_construct_rugs:blocks/alchemystationheatinput"
+  }
+}

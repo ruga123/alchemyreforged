@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "waterjar",
+    "customModelName": "Normal",
+    "name": "Jar of Distilled Water",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 8,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "CUSTOM:AlchemistsJar"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

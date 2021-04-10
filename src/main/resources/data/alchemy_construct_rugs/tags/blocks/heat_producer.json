@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:furnace",
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "alchemy_construct_rugs:controlled_heater_off",
+    "alchemy_construct_rugs:controlled_heater_on"
+  ]
+}

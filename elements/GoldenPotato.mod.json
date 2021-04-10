@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldenpotato",
+    "customModelName": "Normal",
+    "name": "Golden Potato",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 12.1,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

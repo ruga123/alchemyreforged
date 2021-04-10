@@ -1,0 +1,385 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ResetTimer"
+          },
+          "name": "Slot #0",
+          "x": 150,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ResetTimer"
+          },
+          "name": "Slot #1",
+          "x": 186,
+          "y": 69
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 240,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "alchemy_station_background_final.png",
+          "use1Xscale": false,
+          "name": "alchemy_station_background_final.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress1"
+          },
+          "name": "swirl1.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress2"
+          },
+          "name": "swirl2.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress3"
+          },
+          "name": "swirl3.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress4"
+          },
+          "name": "swirl4.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress5"
+          },
+          "name": "swirl5.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress6"
+          },
+          "name": "swirl6.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress7"
+          },
+          "name": "swirl7.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress8"
+          },
+          "name": "swirl8.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress9"
+          },
+          "name": "swirl9.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress10"
+          },
+          "name": "swirl10.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress11"
+          },
+          "name": "swirl11.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress12"
+          },
+          "name": "swirl12.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress13"
+          },
+          "name": "swirl13.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress14"
+          },
+          "name": "swirl14.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress15"
+          },
+          "name": "swirl15.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:heatvalue>°",
+          "color": {
+            "value": -6711040,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:heatvalue>°",
+          "x": 245,
+          "y": 42
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress16"
+          },
+          "name": "swirl16.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress17"
+          },
+          "name": "swirl17.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress18"
+          },
+          "name": "swirl18.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress19"
+          },
+          "name": "swirl19.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swirl20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CheckMixingProgress20"
+          },
+          "name": "swirl20.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alchemy Station",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Alchemy Station",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "alchemistjargui.png",
+          "use1Xscale": false,
+          "name": "alchemistjargui.png",
+          "x": 151,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:mixingprogress>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:mixingprogress>",
+          "x": 130,
+          "y": 101
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "AlchemyStationGuiThisGUIIsOpened"
+    },
+    "onTick": {
+      "name": "AlchemyStationCheckValidRecipes"
+    }
+  }
+}

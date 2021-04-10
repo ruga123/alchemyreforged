@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tnt_side",
+        "1": "concoctiontntbottom",
+        "2": "whiteglasstexture",
+        "3": "processor1"
+      },
+      "name": "default"
+    }
+  }
+}

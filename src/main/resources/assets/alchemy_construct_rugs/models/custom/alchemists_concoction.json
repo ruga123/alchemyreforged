@@ -1,0 +1,42 @@
+{
+  "parent": "item/generated",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "alchemy_construct_rugs:item/concoctions/alchemist_concoction_purple"
+    },
+    null
+  ]
+}

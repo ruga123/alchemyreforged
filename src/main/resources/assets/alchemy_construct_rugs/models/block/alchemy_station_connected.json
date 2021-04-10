@@ -1,0 +1,10 @@
+{
+  "parent": "alchemy_construct_rugs:custom/alchemystationconnected",
+  "textures": {
+    "all": "alchemy_construct_rugs:blocks/alchemystationtop",
+    "particle": "alchemy_construct_rugs:blocks/alchemystationtop",
+    "1": "alchemy_construct_rugs:blocks/alchemystationtop",
+    "2": "alchemy_construct_rugs:blocks/irontexture",
+    "3": "alchemy_construct_rugs:blocks/alchemystationheatinput"
+  }
+}

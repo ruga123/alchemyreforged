@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemy_construct_rugs:blocks/controlledheatertop",
+    "up": "alchemy_construct_rugs:blocks/controlledheatertop",
+    "north": "alchemy_construct_rugs:blocks/controlledheater",
+    "east": "alchemy_construct_rugs:blocks/controlledheater",
+    "south": "alchemy_construct_rugs:blocks/controlledheater",
+    "west": "alchemy_construct_rugs:blocks/controlledheater",
+    "particle": "alchemy_construct_rugs:blocks/controlledheatertop"
+  }
+}

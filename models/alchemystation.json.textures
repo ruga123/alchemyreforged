@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "irontexture",
+        "2": "alchemystationtop",
+        "3": "alchemystationheatinput"
+      },
+      "name": "default"
+    }
+  }
+}

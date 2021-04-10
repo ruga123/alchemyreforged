@@ -1,0 +1,56 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 80,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Set",
+          "onClick": {
+            "name": "ControlledHeater"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Set",
+          "x": 130,
+          "y": 132
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "100",
+          "width": 120,
+          "height": 20,
+          "name": "Degrees",
+          "x": 130,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Heat",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Heat",
+          "x": 130,
+          "y": 86
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "ControlledHeaterGuiThisGUIIsOpened"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "goldtexture",
+        "1": "whiteglasstexture",
+        "2": "alchemystationheatinput"
+      },
+      "name": "default"
+    }
+  }
+}
