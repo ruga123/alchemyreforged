@@ -4,6 +4,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.alchemyconstructrugs.item.AlchemistsConcoctionItem;
 import net.mcreator.alchemyconstructrugs.AlchemyConstructRugsModElements;
 import net.mcreator.alchemyconstructrugs.AlchemyConstructRugsMod;
 
@@ -44,8 +45,12 @@ public class ThrowableConcoctionThrownProcedure extends AlchemyConstructRugsModE
 		entity.getPersistentData().putDouble("health", ((itemstack).getOrCreateTag().getDouble("health")));
 		entity.getPersistentData().putDouble("fireresistance", ((itemstack).getOrCreateTag().getDouble("fireresistance")));
 		entity.getPersistentData().putDouble("glow", ((itemstack).getOrCreateTag().getDouble("glow")));
-		if ((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))) {
-			((itemstack)).shrink((int) 1);
+		entity.getPersistentData().putDouble("levitation", ((itemstack).getOrCreateTag().getDouble("levitation")));
+		entity.getPersistentData().putDouble("slowfall", ((itemstack).getOrCreateTag().getDouble("slowfall")));
+		if (((itemstack).getItem() == new ItemStack(AlchemistsConcoctionItem.block, (int) (1)).getItem())) {
+			if ((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))) {
+				((itemstack)).shrink((int) 1);
+			}
 		}
 	}
 }

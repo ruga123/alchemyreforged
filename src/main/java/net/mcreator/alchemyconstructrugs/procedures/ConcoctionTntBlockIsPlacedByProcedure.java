@@ -196,6 +196,24 @@ public class ConcoctionTntBlockIsPlacedByProcedure extends AlchemyConstructRugsM
 			if (world instanceof World)
 				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("slowfall", ((itemstack).getOrCreateTag().getDouble("slowfall")));
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("levitation", ((itemstack).getOrCreateTag().getDouble("levitation")));
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
 		if (((EnchantmentHelper.getEnchantmentLevel(DetonationEnchantment.enchantment, (itemstack)) != 0))) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();

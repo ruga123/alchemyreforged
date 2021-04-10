@@ -163,6 +163,16 @@ public class ThrowableConcoctionHitsProcedure extends AlchemyConstructRugsModEle
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.GLOWING, (int) (Length),
 						(int) Math.abs(((sourceentity.getPersistentData().getDouble("glow")) - 1)), (false), (true)));
 		}
+		if (((sourceentity.getPersistentData().getDouble("slowfall")) >= 1)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) (Length),
+						(int) Math.abs(((sourceentity.getPersistentData().getDouble("slowfall")) - 1)), (false), (true)));
+		}
+		if (((sourceentity.getPersistentData().getDouble("levitation")) >= 1)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) (Length),
+						(int) Math.abs(((sourceentity.getPersistentData().getDouble("levitation")) - 1)), (false), (true)));
+		}
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.splash_potion.break")),

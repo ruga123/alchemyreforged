@@ -7,11 +7,13 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.alchemyconstructrugs.item.ThrowableConcoctionItem;
+import net.mcreator.alchemyconstructrugs.item.AlchemistsConcoctionItem;
+import net.mcreator.alchemyconstructrugs.block.ConcoctionTntBlock;
 import net.mcreator.alchemyconstructrugs.AlchemyConstructRugsModElements;
 import net.mcreator.alchemyconstructrugs.AlchemyConstructRugsMod;
 
@@ -19,21 +21,21 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AlchemyConstructRugsModElements.ModElement.Tag
-public class SwordHitProcedure extends AlchemyConstructRugsModElements.ModElement {
-	public SwordHitProcedure(AlchemyConstructRugsModElements instance) {
-		super(instance, 88);
+public class BowHitProcedure extends AlchemyConstructRugsModElements.ModElement {
+	public BowHitProcedure(AlchemyConstructRugsModElements instance) {
+		super(instance, 101);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				AlchemyConstructRugsMod.LOGGER.warn("Failed to load dependency entity for procedure SwordHit!");
+				AlchemyConstructRugsMod.LOGGER.warn("Failed to load dependency entity for procedure BowHit!");
 			return;
 		}
 		if (dependencies.get("sourceentity") == null) {
 			if (!dependencies.containsKey("sourceentity"))
-				AlchemyConstructRugsMod.LOGGER.warn("Failed to load dependency sourceentity for procedure SwordHit!");
+				AlchemyConstructRugsMod.LOGGER.warn("Failed to load dependency sourceentity for procedure BowHit!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -42,7 +44,9 @@ public class SwordHitProcedure extends AlchemyConstructRugsModElements.ModElemen
 		ItemStack HeldItem = ItemStack.EMPTY;
 		Length = (double) 100;
 		HeldItem = ((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY);
-		if (((HeldItem).getItem() instanceof SwordItem)) {
+		if ((!((new ItemStack(AlchemistsConcoctionItem.block, (int) (1)).getItem() == (HeldItem).getItem())
+				|| ((new ItemStack(ThrowableConcoctionItem.block, (int) (1)).getItem() == (HeldItem).getItem())
+						|| (new ItemStack(ConcoctionTntBlock.block, (int) (1)).getItem() == (HeldItem).getItem()))))) {
 			if ((((HeldItem).getOrCreateTag().getDouble("strength")) >= 1)) {
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) (Length),

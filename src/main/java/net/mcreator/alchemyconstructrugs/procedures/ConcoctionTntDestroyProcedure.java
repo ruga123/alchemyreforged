@@ -166,6 +166,22 @@ public class ConcoctionTntDestroyProcedure extends AlchemyConstructRugsModElemen
 				return -1;
 			}
 		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fireplode")));
+		(drop).getOrCreateTag().putDouble("levitation", (new Object() {
+			public double getValue(IWorld world, BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "levitation")));
+		(drop).getOrCreateTag().putDouble("slowfall", (new Object() {
+			public double getValue(IWorld world, BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "slowfall")));
 		world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 		if (world instanceof World && !world.isRemote()) {
 			ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, (drop));

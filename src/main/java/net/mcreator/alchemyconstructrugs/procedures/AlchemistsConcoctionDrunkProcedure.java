@@ -227,5 +227,26 @@ public class AlchemistsConcoctionDrunkProcedure extends AlchemyConstructRugsModE
 								- 1)),
 						(false), (true)));
 		}
+		if (((((entity.getCapability(AlchemyConstructRugsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new AlchemyConstructRugsModVariables.PlayerVariables())).LastHeldConcoction).getOrCreateTag().getDouble("slowfall")) >= 1)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) (Length),
+						(int) Math.abs(((((entity.getCapability(AlchemyConstructRugsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new AlchemyConstructRugsModVariables.PlayerVariables())).LastHeldConcoction).getOrCreateTag()
+										.getDouble("slowfall"))
+								- 1)),
+						(false), (true)));
+		}
+		if (((((entity.getCapability(AlchemyConstructRugsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new AlchemyConstructRugsModVariables.PlayerVariables())).LastHeldConcoction).getOrCreateTag()
+						.getDouble("levitation")) >= 1)) {
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) (Length),
+						(int) Math.abs(((((entity.getCapability(AlchemyConstructRugsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new AlchemyConstructRugsModVariables.PlayerVariables())).LastHeldConcoction).getOrCreateTag()
+										.getDouble("levitation"))
+								- 1)),
+						(false), (true)));
+		}
 	}
 }

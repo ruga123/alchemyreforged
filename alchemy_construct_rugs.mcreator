@@ -1570,6 +1570,44 @@
           }
         ]
       }
+    },
+    {
+      "name": "BowHit",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bow_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NbtMoveToEntity",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbt_move_to_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1624,8 +1662,8 @@
       "item.alchemy_construct_rugs.water_jar": "Jar of Distilled Water",
       "block.alchemy_construct_rugs.alchemy_station_connected": "Alchemy Station",
       "block.alchemy_construct_rugs.alchemy_station": "Alchemy Station",
-      "block.alchemy_construct_rugs.concoction_tnt": "Weaponized Tnt",
       "item.alchemy_construct_rugs.alchemists_jar": "Alchemist\u0027s Jar",
+      "block.alchemy_construct_rugs.concoction_tnt": "Weaponized Tnt",
       "block.alchemy_construct_rugs.controlled_heater_off": "Controlled Heater Off",
       "item.alchemy_construct_rugs.golden_potato": "Golden Potato",
       "item.alchemy_construct_rugs.throwable_concoction": "Throwable Concoction",
